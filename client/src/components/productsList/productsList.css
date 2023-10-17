@@ -1,0 +1,27 @@
+.productslist__container {
+  display: flex;
+  justify-content: center;
+  gap: 100px 50px;
+  flex-wrap: wrap;
+}
+
+.products__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.products__btn button {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: rgb(239, 87, 112);
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .productsllist__container {
+    gap: 70px 5px;
+    flex-direction: column;
+  }
+}

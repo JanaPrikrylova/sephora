@@ -1,0 +1,50 @@
+.cartdetail__promo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.cartdetail__promo-text {
+  font-weight: 700;
+}
+
+.cartdetail__promo-code input {
+  height: 50px;
+  padding: 10px 20px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #f1f1f1;
+}
+
+.cartdetail__promo-code button {
+  width: 80px;
+  height: 50px;
+  background: rgb(249, 243, 244);
+}
+
+@media (max-width: 576px) {
+  .cartdetail__promo {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .cartdetail__promo-code,
+  .cartdetail__promo-text {
+    width: 100%;
+  }
+
+  .cartdetail__promo-code input {
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .cartdetail__promo-code button {
+    width: 20%;
+    font-size: 14px;
+  }
+
+  .cartdetail__promo-text {
+    text-align: left;
+  }
+}
