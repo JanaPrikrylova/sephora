@@ -10,7 +10,7 @@ On this page, the user can:
 
 ## Live Demo
 
-- To be added
+- sephora-eshop.netlify.app
 
 ## Technologies Used
 
@@ -19,6 +19,11 @@ On this page, the user can:
 ## Screenshots
 
 ![image](https://github.com/JanaPrikrylova/sephora-eshop-project/assets/86554438/7559d8cc-6a28-45df-afe9-14430efd8f76)
+
+![image](https://github.com/JanaPrikrylova/sephora/assets/86554438/46692031-770e-4dec-a670-6078060cb1b1)
+
+![image](https://github.com/JanaPrikrylova/sephora/assets/86554438/f640aabb-035e-454f-9130-04fe7229dc94)
+
 
 ## What I learned
 
