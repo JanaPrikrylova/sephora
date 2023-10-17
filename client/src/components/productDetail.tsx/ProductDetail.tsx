@@ -16,7 +16,6 @@ const ProductDetail: React.FC<ProductDetailProps> = observer(({ id }) => {
     return <></>;
   }
 
-  //console.log(JSON.stringify(currentProduct));
   return (
     <div className="productdetail__container">
       <div className="productdetail__left">

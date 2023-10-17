@@ -88,6 +88,9 @@ const ShoppingCart: React.FC = observer(() => {
       ) : (
         <div className="cartdetail__empty">
           <p>You don´t have any product in shopping bag 🛒.</p>
+          <Link to="/products">
+          <button>Continue shopping</button>
+          </Link>
         </div>
       )}
     </section>

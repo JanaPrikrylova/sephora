@@ -34,6 +34,9 @@ const FavouriteItems: React.FC = observer(() => {
       ) : (
         <div className="favourite__empty">
           <p>You don´t have any favourite products yet 💓.</p>
+          <Link to="/products">
+          <button>Continue shopping</button>
+          </Link>
         </div>
       )}
     </div>

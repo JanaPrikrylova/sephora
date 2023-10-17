@@ -1,4 +1,4 @@
-/*-----------Header------------*/
+
 
 .cartdetail__header {
   display: flex;
@@ -16,7 +16,7 @@
   font-weight: 700;
   font-size: 18px;
 }
-/*-----------Product------------*/
+
 
 .cartdetail__container {
   display: flex;
@@ -108,7 +108,16 @@
   margin-top: 50px;
 }
 
-/*-----------Discount------------*/
+.cartdetail__empty p {
+  margin-bottom: 50px;
+}
+
+.cartdetail__empty button {
+  font-weight: 700;
+  background: none;
+  text-decoration: underline;
+}
+
 
 .cartdetail__discount {
   display: flex;
@@ -175,6 +184,10 @@
 
   .cartdetail__discount {
     font-size: 14px;
+  }
+
+  .cartdetail__empty button {
+    font-size: 14px
   }
 }
 

@@ -40,7 +40,19 @@
 .favourite__empty {
   font-size: 16px;
   margin-top: 50px;
+  
 }
+
+.favourite__empty p {
+  margin-bottom: 50px;
+}
+
+.favourite__empty button {
+  font-weight: 700;
+  background: none;
+  text-decoration: underline;
+}
+
 
 @media (max-width: 1200px) {
   .favouriteitem__name {
@@ -67,5 +79,9 @@
 @media (max-width: 400px) {
   .favouriteitem__card {
     width: calc(100% - 7.5px * 2);
+  }
+
+  .favourite__empty button {
+    font-size: 14px;
   }
 }
